@@ -9,16 +9,16 @@ Plugin 'gmarik/vundle'
 " My bundles
 
 " Wiki
-Plugin 'vimwiki/vimwiki'
+" Plugin 'vimwiki/vimwiki'
 
 " tiled view manager
 " Plugin 'spolu/dwm.vim'
 
 " Nice file browser
-" Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdtree'
 
 " Git integration
-" Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 
 " Powerline/Airline
 " Plugin 'Lokaltog/vim-powerline' 
@@ -55,8 +55,14 @@ Plugin 'kien/ctrlp.vim'
 " Sucks that YCM no longer works, so let's JEDI
 " Plugin 'davidhalter/jedi-vim'
 
+" neosnippet and neocomplete
+Plugin 'Shougo/neocomplete'
+
+Plugin 'Shougo/neosnippet'
+Plugin 'Shougo/neosnippet-snippets'
+
 " Python mode (Try out)
-" Plugin 'klen/python-mode'
+Plugin 'klen/python-mode'
 
 " Snippets
 " Plugin 'msanders/snipmate.vim'

@@ -1,6 +1,6 @@
 set background=dark
 
-colorscheme dracula
+ colorscheme dracula
 " let g:molokai_original = 1
 
 " Fonts I swap between sometimes

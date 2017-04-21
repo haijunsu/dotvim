@@ -1,3 +1,4 @@
+set term=xterm-256color
 syntax enable
 set enc=utf-8
 set fileencoding=utf-8

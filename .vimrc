@@ -9,6 +9,8 @@ let config_list = [
   \ 'leader.vim',
   \ 'keymappings.vim',
   \ 'languages.vim',
+  \ 'plugin_neocomplete.vim',
+  \ 'plugin_python.vim',
   \ 'plugin_settings.vim'
 \]
  
