@@ -1,0 +1,3 @@
+#!/bin/bash
+set editing-mode vi
+. ~/.bash/myalias

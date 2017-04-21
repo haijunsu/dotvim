@@ -1,0 +1,5 @@
+#!/bin/bash
+alias ls='ls -G'
+alias ll='ls -altrG'
+alias grep='grep --color=auto'
+alias h='history'

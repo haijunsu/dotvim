@@ -70,10 +70,10 @@ Plugin 'klen/python-mode'
 "lugin 'honza/vim-snippets'
 
 " Live syntax checker
-" Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 
 " Rust syntax
-" Plugin 'wting/rust.vim'
+Plugin 'wting/rust.vim'
 
 " Taglists
 " Plugin 'vim-scripts/taglist.vim'
