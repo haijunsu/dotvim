@@ -1,5 +1,9 @@
 #!/bin/bash
-alias ls='ls -G'
-alias ll='ls -altrG'
+
+# '-G' means "Enable colorized output" on Mac while it means "inhibit display
+# of group inforation" on Linux
+# alias ls='ls -G' # For mac only
+# alias ll='ls -altrG' # For mac only
+alias ll='ls -altrF' # For Linux
 alias grep='grep --color=auto'
 alias h='history'
