@@ -1,9 +1,14 @@
 #!/bin/bash
 
-# '-G' means "Enable colorized output" on Mac while it means "inhibit display
+# ls option '-G' means "Enable colorized output" on Mac while it means "inhibit display
 # of group inforation" on Linux
-# alias ls='ls -G' # For mac only
-# alias ll='ls -altrG' # For mac only
-alias ll='ls -altrF' # For Linux
+OS_NAME=`uname -s`
+if [ "$OS_NAME" = "Darwin" ]; then
+    # Mac OS_NAME
+    alias ls='ls -G' # enable colorized output
+    alias ll='ls -altrG'
+else
+    alias ll='ls -altrF' # For Linux
+fi
 alias grep='grep --color=auto'
 alias h='history'
