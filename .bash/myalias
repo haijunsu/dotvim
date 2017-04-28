@@ -12,3 +12,9 @@ else
 fi
 alias grep='grep --color=auto'
 alias h='history'
+
+## git commands
+alias gitci='git commit -m'
+alias gitpush='git push -u origin'
+
+
