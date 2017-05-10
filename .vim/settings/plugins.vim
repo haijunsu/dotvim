@@ -67,7 +67,7 @@ Plugin 'klen/python-mode'
 " Snippets
 " Plugin 'msanders/snipmate.vim'
 " Plugin 'SirVer/ultisnips'
-"lugin 'honza/vim-snippets'
+" plugin 'honza/vim-snippets'
 
 " Live syntax checker
 Plugin 'scrooloose/syntastic'
@@ -80,3 +80,7 @@ Plugin 'wting/rust.vim'
 
 " Go
 " Plugin 'fatih/vim-go'
+
+" gist vim
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'

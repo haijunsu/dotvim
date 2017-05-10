@@ -1,6 +1,10 @@
 set background=dark
 
- colorscheme dracula
+colorscheme desert
+set cursorline
+hi CursorLine term=bold cterm=bold guibg=Gray40 ctermbg=238
+" colorscheme tomasr
+" colorscheme dracula
 " let g:molokai_original = 1
 
 " Fonts I swap between sometimes
