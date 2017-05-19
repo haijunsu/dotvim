@@ -70,7 +70,7 @@ let g:vimwiki_list = [{'path': '~/vimwiki/', 'path_html': '~/vimwiki_html/'},
 " let g:vimwiki-option-syntax = markdown
 
 " snippet path
-let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/bundle/vim-snippets/UltiSnips']
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/bundle/vim-snippets/my-snippets', $HOME.'/.vim/bundle/vim-snippets/UltiSnips']
 "let g:snippets_dir = '~/.vim/settings/snippets'
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"

@@ -67,7 +67,7 @@ Plugin 'klen/python-mode'
 " Snippets
 " Plugin 'msanders/snipmate.vim'
 Plugin 'SirVer/ultisnips'
-" plugin 'honza/vim-snippets'
+Plugin 'honza/vim-snippets'
  
 " Snippets are separated from the engine. Add this if you want them:
 " Plugin 'honza/vim-snippets'

@@ -19,4 +19,5 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 vim +PluginInstall +qall
 
 # UltiSnips
-cp ~/.vim/settings/snippets/all.snippets ~/.vim/bundle/vim-snippets/UltiSnips/
+mkdir ~/.vim/bundle/vim-snippets/my-snippets
+cp -r .vim/settings/UltiSnips/all.snippets ~/.vim/bundle/vim-snippets/my-snippets
