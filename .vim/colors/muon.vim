@@ -1,1 +1,0 @@
-../bundle/Muon/colors/muon.vim

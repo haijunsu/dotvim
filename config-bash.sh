@@ -7,6 +7,9 @@
 # copy my customized file
 cp -r .bash ~/ 
 
+# tmux config 
+cp tmux.conf ~/.tmux.conf
+
 # installing powerline-shell
 cd ~/ 
 git clone https://github.com/milkbikis/powerline-shell

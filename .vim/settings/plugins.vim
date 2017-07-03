@@ -32,13 +32,13 @@ Plugin 'arnar/vim-matchopen'
 
 Plugin 'vim-airline/vim-airline-themes'
 " Jellybeans theme
-" Plugin 'nanotech/jellybeans.vim'
+Plugin 'nanotech/jellybeans.vim'
 
 " solarized if you want it
 " Plugin 'altercation/vim-colors-solarized'
 
 " Muon (blue theme"
-" Plugin 'gregsexton/Muon'
+Plugin 'gregsexton/Muon'
 
 " Molokai theme
 Plugin 'tomasr/molokai'
