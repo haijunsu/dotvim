@@ -23,6 +23,6 @@ set guifont=Hack\ 9
 if has ('gui_running')
     highlight Pmenu guibg=#555555 gui=bold
 else
-    highlight Pmenu ctermbg=238 gui=bold
+    highlight Pmenu ctermbg=182 gui=bold
 endif
 
