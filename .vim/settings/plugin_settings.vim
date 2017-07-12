@@ -76,5 +76,7 @@ let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
-highlight htmlBold cterm=bold gui=bold guifg=#af0000 ctermfg=124
+highlight htmlBold cterm=bold gui=bold guifg=#af0000 ctermfg=214
 highlight htmlItalic cterm=italic gui=italic guifg=#ff8700 ctermfg=214
+highlight Comment cterm=italic
+

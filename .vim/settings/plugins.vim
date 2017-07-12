@@ -88,3 +88,7 @@ Plugin 'wting/rust.vim'
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'
 
+" markdown
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
