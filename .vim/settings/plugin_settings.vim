@@ -63,9 +63,9 @@ set laststatus=2
 
 
 " mutliple vim wikis
-let g:vimwiki_list = [{'path': '~/vimwiki/', 'path_html': '~/vimwiki_html/'},
-                    \ {'path': '~/public_wiki/', 'path_html': '~/public_wiki_html'},
-                    \ {'path': '~/SpiderOak\ Hive/vimwiki/', 'path_html': '~/SpiderOak\ Hive/vimiki_html'}]
+" let g:vimwiki_list = [{'path': '~/vimwiki/', 'path_html': '~/vimwiki_html/'},
+"                    \ {'path': '~/public_wiki/', 'path_html': '~/public_wiki_html'},
+"                    \ {'path': '~/SpiderOak\ Hive/vimwiki/', 'path_html': '~/SpiderOak\ Hive/vimiki_html'}]
 
 " let g:vimwiki-option-syntax = markdown
 
@@ -75,3 +75,6 @@ let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/bundle/vim-snippets/my-snippets'
 let g:UltiSnipsExpandTrigger="<c-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+highlight htmlBold cterm=bold gui=bold guifg=#af0000 ctermfg=124
+highlight htmlItalic cterm=italic gui=italic guifg=#ff8700 ctermfg=214
