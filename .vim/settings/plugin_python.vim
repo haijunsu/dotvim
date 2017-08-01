@@ -20,6 +20,9 @@ let g:pymode_doc_key = 'K'
 "Linting
 let g:pymode_lint = 1
 let g:pymode_lint_checker = "pyflakes,pep8"
+let g:pymode_lint_message = 0
+let g:pymode_lint_ignore = "C901,E501,E231,E261,W"
+let g:pymode_lint_cwindow = 1
 " Auto check on save
 let g:pymode_lint_write = 1
 

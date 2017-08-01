@@ -1,9 +1,6 @@
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 
-let g:pymode_lint_message = 0
-let g:pymode_lint_ignore = "E501,E231,E261,W"
-let g:pymode_lint_cwindow = 1
 set completeopt=menu,noinsert
 " Trust all the configs it finds
 "let g:ycm_confirm_extra_conf = 0
