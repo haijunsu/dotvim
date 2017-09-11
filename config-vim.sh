@@ -27,3 +27,7 @@ cp -r .vim/settings/UltiSnips/all.snippets ~/.vim/bundle/vim-snippets/my-snippet
 # symbolic links
 ln -s ~/.vim/bundle/jellybeans.vim/colors/jellybeans.vim ~/.vim/colors/jellybeans.vim
 ln -s ~/.vim/bundle/Muon/colors/muon.vim ~/.vim/colors/muon.vim
+
+# setup neovim
+mkdir ~/.config/nvim
+cp config/nvim/init.vim ~/.config/nvim/
