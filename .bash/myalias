@@ -17,4 +17,4 @@ alias h='history'
 alias gitci='git commit -m'
 alias gitpush='git push -u origin'
 
-
+alias vi='nvim' # I am using neovim now
